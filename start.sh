@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Cyniteofficial/Auto-Filter-V5.git /Auto-Filter-V5
+  git clone https://github.com/satyam5465/Mdisk-Search-Bot-
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Auto-Filter-V5
+  git clone $UPSTREAM_REPO /Mdisk-Search-Bot-
 fi
 cd /Auto-Filter-V5
 pip3 install -U -r requirements.txt
