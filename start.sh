@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/satyam5465/Mdisk-Search-Bot-
+  git clone https://github.com/satyam5465/Mdisk-Search-Bot-.git /Mdisk-Search-Bot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Mdisk-Search-Bot-
