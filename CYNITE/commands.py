@@ -25,7 +25,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Cyniteupdates'),
-                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Cynitebackup')
+                    InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Cynitesupport')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
